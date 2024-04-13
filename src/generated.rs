@@ -455,7 +455,7 @@ pub struct VideoFrameBatch {
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Message {
     #[prost(string, tag = "1")]
-    pub lib_version: ::prost::alloc::string::String,
+    pub protocol_version: ::prost::alloc::string::String,
     #[prost(string, repeated, tag = "2")]
     pub routing_labels: ::prost::alloc::vec::Vec<::prost::alloc::string::String>,
     #[prost(map = "string, string", tag = "3")]

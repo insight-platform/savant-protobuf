@@ -289,7 +289,7 @@ message VideoFrameBatch {
 }
 
 message Message {
-  string lib_version = 1;
+  string protocol_version = 1;
   repeated string routing_labels = 2;
   map<string, string> propagated_context = 3;
   uint64 seq_id = 4;
