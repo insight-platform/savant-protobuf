@@ -205,6 +205,11 @@ pub struct Attribute {
     pub is_hidden: bool,
 }
 #[derive(Clone, PartialEq, ::prost::Message)]
+pub struct AttributeSet {
+    #[prost(message, repeated, tag = "1")]
+    pub attributes: ::prost::alloc::vec::Vec<Attribute>,
+}
+#[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UserData {
     #[prost(string, tag = "1")]
     pub source_id: ::prost::alloc::string::String,

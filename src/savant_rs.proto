@@ -152,6 +152,10 @@ message Attribute {
   bool is_hidden = 6;
 }
 
+message AttributeSet {
+  repeated Attribute attributes = 1;
+}
+
 message UserData {
   string source_id = 1;
   repeated Attribute attributes = 2;

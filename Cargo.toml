@@ -1,6 +1,6 @@
 [package]
 name = "savant-protobuf"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
 authors = ["Ivan Kudriavtsev <ivan.a.kudryavtsev@gmail.com>"]
 description = "Savant PB definitions and bindings"
